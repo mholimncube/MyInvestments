@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MyInvestments.Views.NewsPage"
+             BackgroundColor="LightGray">
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10">
+
+                <StackLayout Spacing="10">
+                    <Label Text="Zebra Force News"  TextColor="Black" FontSize="Large" />
+                </StackLayout>
+                <StackLayout Padding="10">
+                    <StackLayout x:Name="Log" VerticalOptions="FillAndExpand">
+                        <Image x:Name="LoginIco" Source="graph.png" Margin="0,10,0,0" HeightRequest="190" />
+                    </StackLayout>
+                    <Label Text="Markets"  />
+                    <Label Text="Stocks Advance as Treasuries 
+                       Extend Post-Fed Gains: Markets Wrap" TextColor="Black" FontSize="Large"/>
+                    <Label Text="updated 11 minutes ago" FontSize="Small" />
+                </StackLayout>
+
+                <StackLayout x:Name="MaterLayout" Padding="10">
+                    <StackLayout x:Name="L" VerticalOptions="FillAndExpand">
+                        <Image x:Name="LoginI" Source="ass.jpg" Margin="0,10,0,0" HeightRequest="190" />
+                    </StackLayout>
+
+                    <Label Text="Politics"  />
+                    <Label Text="The Only Option for Eskom Is One South Africa Can't Afford" TextColor="Black" FontSize="Large"/>
+                    <Label Text="updated 11 minutes ago" FontSize="Small" />
+                </StackLayout>
+
+                <StackLayout Padding="10">
+                    <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+                        <Image x:Name="LoginIcon" Source="president.jpg" Margin="0,80,0,0" HeightRequest="190"/>
+                    </StackLayout>
+                    <Label Text="Markets"  />
+                    <Label Text="Eskom Union to Ramaphosa: No Job Cuts, No Split, Fire the Board" TextColor="Black" FontSize="Large"/>
+                    <Label Text="updated 11 minutes ago" FontSize="Small" />
+                </StackLayout>
+                <StackLayout x:Name="ec" Padding="10">
+                    <StackLayout>
+                        <Image x:Name="LoginIconn" Source="usa.png" Margin="0,80,0,0" HeightRequest="190"/>
+                    </StackLayout>
+                    <Label Text="Technology"  />
+                    <Label Text="Who's Winning the Tech Cold War? A China vs. U.S. Scoreboard" TextColor="Black" FontSize="Large"/>
+                    <Label Text="updated 34 minutes ago" FontSize="Small" />
+                </StackLayout>
+
+                <StackLayout x:Name="tec" Padding="10">
+                    <StackLayout>
+                        <Image x:Name="LoginIconnx" Source="uber.jpg" Margin="0,80,0,0" HeightRequest="190"/>
+                    </StackLayout>
+                    <Label Text="Technology"  />
+                    <Label Text="Egyptian Rival to Uber Raises $42 Million for African Expansion" TextColor="Black" FontSize="Large"/>
+                    <Label Text="updated 34 minutes ago" FontSize="Small" />
+                </StackLayout>
+
+            </StackLayout >
+        </ScrollView>
+    </ContentPage.Content>
+    
+</ContentPage>

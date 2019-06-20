@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            xmlns:local="clr-namespace:MyInvestments.Views"
+            mc:Ignorable="d"
+            x:Class="MyInvestments.MainPage"
+            BarBackgroundColor="#16374d">
+
+    <local:HomePage Title="Home" IconImageSource="twotone_home_white_24dp.png"/>
+    <local:WalletPage Title="Wallet" IconImageSource="twotone_account_balance_wallet_white_24dp.png"/>
+    <local:More Title="More" IconImageSource="twotone_view_headline_white_24dp.png"/>
+
+</TabbedPage>

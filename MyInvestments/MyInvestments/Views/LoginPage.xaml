@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MyInvestments.Views.LoginPage">
+   
+    <ContentPage.Content>
+        <StackLayout x:Name="MaterLayout">
+            <StackLayout x:Name="LogoStack" VerticalOptions="FillAndExpand">
+                <Image x:Name="LoginIcon" Source="Investec1.png" />
+                
+            </StackLayout>
+
+            <ActivityIndicator x:Name="ActivitySpinner" Color="Red" IsRunning="True"/>
+
+            <StackLayout x:Name="LogInEntriesStack" VerticalOptions="StartAndExpand" Padding="10" Spacing="10">
+                <Label x:Name="Lbl_Username" Text="Username" FontSize="Medium"/>
+                <Entry x:Name="Entry_Username" Placeholder="Username"/>
+                <Label x:Name="Lbl_Password" Text="Password" FontSize="Medium"/>
+                <Entry x:Name="Entry_Password" Placeholder="Password"/>
+                <Button x:Name="Btn_Singin" Text="Sign in" TextColor="White" Clicked="SignInProcedure" BackgroundColor="Blue"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
